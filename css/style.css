@@ -145,6 +145,19 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+.formularioAdd{
+    display: flex;
+    justify-content: center;
+    color:white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: var(--font-defaut);
+    form {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+    
+}
 /*Media Query Responsividade*/
 
 @media(max-width:700px){
